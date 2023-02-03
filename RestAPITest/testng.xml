@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.demo.RestAPITest.utilities.TestListenersRestAPI"></listener>
+	</listeners>
+	<test thread-count="5" name="Test1">
+		<classes>
+			<class name="com.demo.RestAPITest.tests.TC001_ListAllUsers"></class>
+			<class name="com.demo.RestAPITest.tests.TC002_CreateUser"></class>
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Test2">
+		<classes>
+			<class name="com.demo.RestAPITest.tests.TC001_ListAllUsers"></class>
+			<class name="com.demo.RestAPITest.tests.TC003_UpdateUser_PUT"></class>
+		</classes>
+	</test>
+	<test thread-count="5" name="Test3">
+		<classes>
+			<class name="com.demo.RestAPITest.tests.TC001_ListAllUsers"></class>
+			<class name="com.demo.RestAPITest.tests.TC004_UpdateUser_PATCH"></class>
+		</classes>
+	</test>
+	<test thread-count="5" name="Test4">
+		<classes>
+			<class name="com.demo.RestAPITest.tests.TC001_ListAllUsers"></class>
+			<class name="com.demo.RestAPITest.tests.TC005_DeleteUser"></class>
+		</classes>
+	</test>
+	<!-- Test -->
+	<test thread-count="5" name="Test5">
+		<classes>
+			<class name="com.demo.RestAPITest.tests.TC001_ListAllUsers"></class>
+		</classes>
+	</test>
+
+	<!-- Test -->
+</suite> <!-- Suite -->

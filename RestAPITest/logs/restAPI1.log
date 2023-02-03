@@ -1,0 +1,1912 @@
+2023-02-03 17:46:03,398 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Log4j initialized
+2023-02-03 17:46:03,742 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Base URI = 'https://gorest.co.in/public/v2/users/'
+2023-02-03 17:46:03,796 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:46:03,798 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:46:03,799 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:46:05,494 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:46:05,542 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 232815,
+        "name": "Ekaksh Iyengar",
+        "email": "iyengar_ekaksh@auer-zemlak.name",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 232814,
+        "name": "Bharat Sinha",
+        "email": "sinha_bharat@dickens-cartwright.org",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 232813,
+        "name": "Ananta Sharma",
+        "email": "sharma_ananta@hilll.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 232812,
+        "name": "Bandhul Deshpande",
+        "email": "deshpande_bandhul@beer.net",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229209,
+        "name": "Vasanti Namboothiri",
+        "email": "vasanti_namboothiri@zemlak.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229201,
+        "name": "Adwitiya Mehra",
+        "email": "adwitiya_mehra@willms.com",
+        "gender": "female",
+        "status": "active"
+    }
+]
+2023-02-03 17:46:05,558 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:46:06,578 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC002_CreateUser', Testcase-'validData' started...
+2023-02-03 17:46:06,580 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:46:06,580 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting CreateUser with POST request...
+2023-02-03 17:46:06,581 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Currently executing method: validData
+2023-02-03 17:46:06,890 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:46:06,892 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "id": 233076,
+    "name": "Saran",
+    "email": "saran.qa8@gmail.com",
+    "gender": "male",
+    "status": "active"
+}
+2023-02-03 17:46:06,892 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 201
+2023-02-03 17:46:06,893 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 201 Created
+2023-02-03 17:46:07,461 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Value of the 'id' node - 233076
+2023-02-03 17:46:07,465 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Newly created UserId successfully written to file
+2023-02-03 17:46:07,503 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Row Number 1
+2023-02-03 17:46:07,628 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Status code: 201
+2023-02-03 17:46:07,631 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test validData Success
+2023-02-03 17:46:07,951 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:46:07,953 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:46:07,954 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:46:08,380 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:46:08,391 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 233076,
+        "name": "Saran",
+        "email": "saran.qa8@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 232815,
+        "name": "Ekaksh Iyengar",
+        "email": "iyengar_ekaksh@auer-zemlak.name",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 232814,
+        "name": "Bharat Sinha",
+        "email": "sinha_bharat@dickens-cartwright.org",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 232813,
+        "name": "Ananta Sharma",
+        "email": "sharma_ananta@hilll.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 232812,
+        "name": "Bandhul Deshpande",
+        "email": "deshpande_bandhul@beer.net",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229209,
+        "name": "Vasanti Namboothiri",
+        "email": "vasanti_namboothiri@zemlak.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    }
+]
+2023-02-03 17:46:08,395 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:46:08,411 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC003_UpdateUser_PUT', Testcase-'updateUser' started...
+2023-02-03 17:46:08,412 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:46:08,412 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting UpdateUser with PUT request...
+2023-02-03 17:46:08,412 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Reading content from ./src/test/resources/UserId.txt
+2023-02-03 17:46:08,413 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Update URI for PUT request: https://gorest.co.in/public/v2/users/233076
+2023-02-03 17:46:08,948 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:46:08,951 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "email": "saran.qa8@outlook.com",
+    "name": "52342",
+    "gender": "male",
+    "status": "active",
+    "id": 233076
+}
+2023-02-03 17:46:08,952 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 200
+2023-02-03 17:46:08,953 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 200 OK
+2023-02-03 17:46:08,956 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test updateUser Success
+2023-02-03 17:46:08,997 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:46:08,999 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:46:09,000 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:46:09,425 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:46:09,435 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 233076,
+        "name": "52342",
+        "email": "saran.qa8@outlook.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 232815,
+        "name": "Ekaksh Iyengar",
+        "email": "iyengar_ekaksh@auer-zemlak.name",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 232814,
+        "name": "Bharat Sinha",
+        "email": "sinha_bharat@dickens-cartwright.org",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 232813,
+        "name": "Ananta Sharma",
+        "email": "sharma_ananta@hilll.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 232812,
+        "name": "Bandhul Deshpande",
+        "email": "deshpande_bandhul@beer.net",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229209,
+        "name": "Vasanti Namboothiri",
+        "email": "vasanti_namboothiri@zemlak.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    }
+]
+2023-02-03 17:46:09,438 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:46:09,453 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC004_UpdateUser_PATCH', Testcase-'updateUser' started...
+2023-02-03 17:46:09,454 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:46:09,455 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting UpdateUser with PATCH request...
+2023-02-03 17:46:09,456 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Reading content from ./src/test/resources/UserId.txt
+2023-02-03 17:46:09,459 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Update URI for PATCH request: https://gorest.co.in/public/v2/users/233076
+2023-02-03 17:46:09,892 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:46:09,893 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "email": "saran.qa8@microsoft.com",
+    "id": 233076,
+    "name": "52342",
+    "gender": "male",
+    "status": "active"
+}
+2023-02-03 17:46:09,894 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 200
+2023-02-03 17:46:09,894 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 200 OK
+2023-02-03 17:46:09,895 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test updateUser Success
+2023-02-03 17:46:09,915 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:46:09,916 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:46:09,916 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:46:10,198 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:46:10,207 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 233076,
+        "name": "52342",
+        "email": "saran.qa8@microsoft.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 232815,
+        "name": "Ekaksh Iyengar",
+        "email": "iyengar_ekaksh@auer-zemlak.name",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 232814,
+        "name": "Bharat Sinha",
+        "email": "sinha_bharat@dickens-cartwright.org",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 232813,
+        "name": "Ananta Sharma",
+        "email": "sharma_ananta@hilll.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 232812,
+        "name": "Bandhul Deshpande",
+        "email": "deshpande_bandhul@beer.net",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229209,
+        "name": "Vasanti Namboothiri",
+        "email": "vasanti_namboothiri@zemlak.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    }
+]
+2023-02-03 17:46:10,209 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:46:10,220 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC005_DeleteUser', Testcase-'deleteUser' started...
+2023-02-03 17:46:10,221 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:46:10,221 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting DeleteUser with DELETE request...
+2023-02-03 17:46:10,222 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Reading content from ./src/test/resources/UserId.txt
+2023-02-03 17:46:10,223 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Update URI for PATCH request: https://gorest.co.in/public/v2/users/233076
+2023-02-03 17:46:10,654 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:46:10,658 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - 
+2023-02-03 17:46:10,658 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 204
+2023-02-03 17:46:10,659 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 204 No Content
+2023-02-03 17:46:10,661 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test deleteUser Success
+2023-02-03 17:46:10,711 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:46:10,712 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:46:10,712 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:46:11,124 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:46:11,130 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 232815,
+        "name": "Ekaksh Iyengar",
+        "email": "iyengar_ekaksh@auer-zemlak.name",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 232814,
+        "name": "Bharat Sinha",
+        "email": "sinha_bharat@dickens-cartwright.org",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 232813,
+        "name": "Ananta Sharma",
+        "email": "sharma_ananta@hilll.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 232812,
+        "name": "Bandhul Deshpande",
+        "email": "deshpande_bandhul@beer.net",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229209,
+        "name": "Vasanti Namboothiri",
+        "email": "vasanti_namboothiri@zemlak.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229201,
+        "name": "Adwitiya Mehra",
+        "email": "adwitiya_mehra@willms.com",
+        "gender": "female",
+        "status": "active"
+    }
+]
+2023-02-03 17:46:11,132 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:47:45,826 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Log4j initialized
+2023-02-03 17:47:46,148 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Base URI = 'https://gorest.co.in/public/v2/users/'
+2023-02-03 17:47:46,194 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:47:46,197 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:47:46,198 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:47:47,693 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:47:47,751 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 232814,
+        "name": "Bharat Sinha",
+        "email": "sinha_bharat@dickens-cartwright.org",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 232813,
+        "name": "Ananta Sharma",
+        "email": "sharma_ananta@hilll.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 232812,
+        "name": "Bandhul Deshpande",
+        "email": "deshpande_bandhul@beer.net",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229209,
+        "name": "Vasanti Namboothiri",
+        "email": "vasanti_namboothiri@zemlak.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229201,
+        "name": "Adwitiya Mehra",
+        "email": "adwitiya_mehra@willms.com",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 229200,
+        "name": "Ganak Nehru",
+        "email": "ganak_nehru@jast-kuhic.name",
+        "gender": "female",
+        "status": "active"
+    }
+]
+2023-02-03 17:47:47,769 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:47:48,619 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC002_CreateUser', Testcase-'validData' started...
+2023-02-03 17:47:48,620 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:47:48,620 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting CreateUser with POST request...
+2023-02-03 17:47:48,622 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Currently executing method: validData
+2023-02-03 17:47:49,122 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:47:49,128 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "id": 233099,
+    "name": "Saran",
+    "email": "saran.qa8@gmail.com",
+    "gender": "male",
+    "status": "active"
+}
+2023-02-03 17:47:49,130 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 201
+2023-02-03 17:47:49,131 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 201 Created
+2023-02-03 17:47:49,718 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Value of the 'id' node - 233099
+2023-02-03 17:47:49,722 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Newly created UserId successfully written to file
+2023-02-03 17:47:49,760 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Row Number 1
+2023-02-03 17:47:49,887 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Status code: 201
+2023-02-03 17:47:49,890 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test validData Success
+2023-02-03 17:47:50,183 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:47:50,184 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:47:50,184 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:47:50,507 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:47:50,521 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 233099,
+        "name": "Saran",
+        "email": "saran.qa8@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 232814,
+        "name": "Bharat Sinha",
+        "email": "sinha_bharat@dickens-cartwright.org",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 232813,
+        "name": "Ananta Sharma",
+        "email": "sharma_ananta@hilll.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 232812,
+        "name": "Bandhul Deshpande",
+        "email": "deshpande_bandhul@beer.net",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229209,
+        "name": "Vasanti Namboothiri",
+        "email": "vasanti_namboothiri@zemlak.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229201,
+        "name": "Adwitiya Mehra",
+        "email": "adwitiya_mehra@willms.com",
+        "gender": "female",
+        "status": "active"
+    }
+]
+2023-02-03 17:47:50,524 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:47:50,537 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC003_UpdateUser_PUT', Testcase-'updateUser' started...
+2023-02-03 17:47:50,538 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:47:50,538 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting UpdateUser with PUT request...
+2023-02-03 17:47:50,538 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Reading content from ./src/test/resources/UserId.txt
+2023-02-03 17:47:50,539 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Update URI for PUT request: https://gorest.co.in/public/v2/users/233099
+2023-02-03 17:47:51,001 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:47:51,005 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "email": "saran.qa8@outlook.com",
+    "name": "52342",
+    "gender": "male",
+    "status": "active",
+    "id": 233099
+}
+2023-02-03 17:47:51,007 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 200
+2023-02-03 17:47:51,008 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 200 OK
+2023-02-03 17:47:51,010 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test updateUser Success
+2023-02-03 17:47:51,072 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:47:51,074 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:47:51,075 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:47:51,370 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:47:51,375 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 233099,
+        "name": "52342",
+        "email": "saran.qa8@outlook.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 232814,
+        "name": "Bharat Sinha",
+        "email": "sinha_bharat@dickens-cartwright.org",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 232813,
+        "name": "Ananta Sharma",
+        "email": "sharma_ananta@hilll.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 232812,
+        "name": "Bandhul Deshpande",
+        "email": "deshpande_bandhul@beer.net",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229209,
+        "name": "Vasanti Namboothiri",
+        "email": "vasanti_namboothiri@zemlak.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229201,
+        "name": "Adwitiya Mehra",
+        "email": "adwitiya_mehra@willms.com",
+        "gender": "female",
+        "status": "active"
+    }
+]
+2023-02-03 17:47:51,377 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:47:51,395 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC004_UpdateUser_PATCH', Testcase-'updateUser' started...
+2023-02-03 17:47:51,395 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:47:51,396 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting UpdateUser with PATCH request...
+2023-02-03 17:47:51,398 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Reading content from ./src/test/resources/UserId.txt
+2023-02-03 17:47:51,400 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Update URI for PATCH request: https://gorest.co.in/public/v2/users/233099
+2023-02-03 17:47:51,803 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:47:51,804 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "email": "saran.qa8@microsoft.com",
+    "id": 233099,
+    "name": "52342",
+    "gender": "male",
+    "status": "active"
+}
+2023-02-03 17:47:51,804 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 200
+2023-02-03 17:47:51,805 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 200 OK
+2023-02-03 17:47:51,806 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test updateUser Success
+2023-02-03 17:47:51,825 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:47:51,826 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:47:51,826 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:47:52,201 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:47:52,209 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 233099,
+        "name": "52342",
+        "email": "saran.qa8@microsoft.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 232814,
+        "name": "Bharat Sinha",
+        "email": "sinha_bharat@dickens-cartwright.org",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 232813,
+        "name": "Ananta Sharma",
+        "email": "sharma_ananta@hilll.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 232812,
+        "name": "Bandhul Deshpande",
+        "email": "deshpande_bandhul@beer.net",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229209,
+        "name": "Vasanti Namboothiri",
+        "email": "vasanti_namboothiri@zemlak.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229201,
+        "name": "Adwitiya Mehra",
+        "email": "adwitiya_mehra@willms.com",
+        "gender": "female",
+        "status": "active"
+    }
+]
+2023-02-03 17:47:52,211 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:47:52,226 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC005_DeleteUser', Testcase-'deleteUser' started...
+2023-02-03 17:47:52,228 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:47:52,228 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting DeleteUser with DELETE request...
+2023-02-03 17:47:52,229 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Reading content from ./src/test/resources/UserId.txt
+2023-02-03 17:47:52,232 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Update URI for PATCH request: https://gorest.co.in/public/v2/users/233099
+2023-02-03 17:47:52,512 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:47:52,519 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - 
+2023-02-03 17:47:52,521 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 204
+2023-02-03 17:47:52,523 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 204 No Content
+2023-02-03 17:47:52,525 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test deleteUser Success
+2023-02-03 17:47:52,570 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:47:52,571 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:47:52,572 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:47:52,869 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:47:52,871 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 232814,
+        "name": "Bharat Sinha",
+        "email": "sinha_bharat@dickens-cartwright.org",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 232813,
+        "name": "Ananta Sharma",
+        "email": "sharma_ananta@hilll.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 232812,
+        "name": "Bandhul Deshpande",
+        "email": "deshpande_bandhul@beer.net",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229209,
+        "name": "Vasanti Namboothiri",
+        "email": "vasanti_namboothiri@zemlak.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229201,
+        "name": "Adwitiya Mehra",
+        "email": "adwitiya_mehra@willms.com",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 229200,
+        "name": "Ganak Nehru",
+        "email": "ganak_nehru@jast-kuhic.name",
+        "gender": "female",
+        "status": "active"
+    }
+]
+2023-02-03 17:47:52,871 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:48:14,617 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Log4j initialized
+2023-02-03 17:48:14,955 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Base URI = 'https://gorest.co.in/public/v2/users/'
+2023-02-03 17:48:14,997 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:48:14,999 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:48:15,000 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:48:16,377 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:48:16,427 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 232814,
+        "name": "Bharat Sinha",
+        "email": "sinha_bharat@dickens-cartwright.org",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 232813,
+        "name": "Ananta Sharma",
+        "email": "sharma_ananta@hilll.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 232812,
+        "name": "Bandhul Deshpande",
+        "email": "deshpande_bandhul@beer.net",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229209,
+        "name": "Vasanti Namboothiri",
+        "email": "vasanti_namboothiri@zemlak.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229201,
+        "name": "Adwitiya Mehra",
+        "email": "adwitiya_mehra@willms.com",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 229200,
+        "name": "Ganak Nehru",
+        "email": "ganak_nehru@jast-kuhic.name",
+        "gender": "female",
+        "status": "active"
+    }
+]
+2023-02-03 17:48:16,445 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:48:17,301 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC002_CreateUser', Testcase-'validData' started...
+2023-02-03 17:48:17,303 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:48:17,304 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting CreateUser with POST request...
+2023-02-03 17:48:17,305 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Currently executing method: validData
+2023-02-03 17:48:17,636 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:48:17,640 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "id": 233107,
+    "name": "Saran",
+    "email": "saran.qa8@gmail.com",
+    "gender": "male",
+    "status": "active"
+}
+2023-02-03 17:48:17,642 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 201
+2023-02-03 17:48:17,643 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 201 Created
+2023-02-03 17:48:18,254 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Value of the 'id' node - 233107
+2023-02-03 17:48:18,255 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Newly created UserId successfully written to file
+2023-02-03 17:48:18,297 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Row Number 1
+2023-02-03 17:48:18,428 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Status code: 201
+2023-02-03 17:48:18,434 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test validData Success
+2023-02-03 17:48:18,724 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:48:18,727 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:48:18,728 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:48:19,076 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:48:19,082 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 233107,
+        "name": "Saran",
+        "email": "saran.qa8@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 232814,
+        "name": "Bharat Sinha",
+        "email": "sinha_bharat@dickens-cartwright.org",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 232813,
+        "name": "Ananta Sharma",
+        "email": "sharma_ananta@hilll.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 232812,
+        "name": "Bandhul Deshpande",
+        "email": "deshpande_bandhul@beer.net",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229209,
+        "name": "Vasanti Namboothiri",
+        "email": "vasanti_namboothiri@zemlak.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229201,
+        "name": "Adwitiya Mehra",
+        "email": "adwitiya_mehra@willms.com",
+        "gender": "female",
+        "status": "active"
+    }
+]
+2023-02-03 17:48:19,084 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:48:19,091 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC003_UpdateUser_PUT', Testcase-'updateUser' started...
+2023-02-03 17:48:19,092 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:48:19,092 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting UpdateUser with PUT request...
+2023-02-03 17:48:19,093 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Reading content from ./src/test/resources/UserId.txt
+2023-02-03 17:48:19,095 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Update URI for PUT request: https://gorest.co.in/public/v2/users/233107
+2023-02-03 17:48:19,549 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:48:19,552 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "email": "saran.qa8@outlook.com",
+    "name": "52342",
+    "gender": "male",
+    "status": "active",
+    "id": 233107
+}
+2023-02-03 17:48:19,554 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 200
+2023-02-03 17:48:19,555 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 200 OK
+2023-02-03 17:48:19,558 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test updateUser Success
+2023-02-03 17:48:19,592 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:48:19,594 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:48:19,595 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:48:19,876 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:48:19,885 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 233107,
+        "name": "52342",
+        "email": "saran.qa8@outlook.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 232814,
+        "name": "Bharat Sinha",
+        "email": "sinha_bharat@dickens-cartwright.org",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 232813,
+        "name": "Ananta Sharma",
+        "email": "sharma_ananta@hilll.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 232812,
+        "name": "Bandhul Deshpande",
+        "email": "deshpande_bandhul@beer.net",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229209,
+        "name": "Vasanti Namboothiri",
+        "email": "vasanti_namboothiri@zemlak.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229201,
+        "name": "Adwitiya Mehra",
+        "email": "adwitiya_mehra@willms.com",
+        "gender": "female",
+        "status": "active"
+    }
+]
+2023-02-03 17:48:19,889 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:48:19,901 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC004_UpdateUser_PATCH', Testcase-'updateUser' started...
+2023-02-03 17:48:19,902 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:48:19,902 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting UpdateUser with PATCH request...
+2023-02-03 17:48:19,902 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Reading content from ./src/test/resources/UserId.txt
+2023-02-03 17:48:19,903 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Update URI for PATCH request: https://gorest.co.in/public/v2/users/233107
+2023-02-03 17:48:20,199 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:48:20,200 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "email": "saran.qa8@microsoft.com",
+    "id": 233107,
+    "name": "52342",
+    "gender": "male",
+    "status": "active"
+}
+2023-02-03 17:48:20,200 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 200
+2023-02-03 17:48:20,200 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 200 OK
+2023-02-03 17:48:20,201 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test updateUser Success
+2023-02-03 17:48:20,222 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:48:20,222 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:48:20,223 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:48:20,626 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:48:20,633 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 233107,
+        "name": "52342",
+        "email": "saran.qa8@microsoft.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 232814,
+        "name": "Bharat Sinha",
+        "email": "sinha_bharat@dickens-cartwright.org",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 232813,
+        "name": "Ananta Sharma",
+        "email": "sharma_ananta@hilll.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 232812,
+        "name": "Bandhul Deshpande",
+        "email": "deshpande_bandhul@beer.net",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229209,
+        "name": "Vasanti Namboothiri",
+        "email": "vasanti_namboothiri@zemlak.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229201,
+        "name": "Adwitiya Mehra",
+        "email": "adwitiya_mehra@willms.com",
+        "gender": "female",
+        "status": "active"
+    }
+]
+2023-02-03 17:48:20,636 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:48:20,655 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC005_DeleteUser', Testcase-'deleteUser' started...
+2023-02-03 17:48:20,656 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:48:20,656 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting DeleteUser with DELETE request...
+2023-02-03 17:48:20,656 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Reading content from ./src/test/resources/UserId.txt
+2023-02-03 17:48:20,657 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Update URI for PATCH request: https://gorest.co.in/public/v2/users/233107
+2023-02-03 17:48:20,956 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:48:20,959 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - 
+2023-02-03 17:48:20,961 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 204
+2023-02-03 17:48:20,962 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 204 No Content
+2023-02-03 17:48:20,963 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test deleteUser Success
+2023-02-03 17:48:21,010 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:48:21,011 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:48:21,012 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:48:21,403 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:48:21,409 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 232814,
+        "name": "Bharat Sinha",
+        "email": "sinha_bharat@dickens-cartwright.org",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 232813,
+        "name": "Ananta Sharma",
+        "email": "sharma_ananta@hilll.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 232812,
+        "name": "Bandhul Deshpande",
+        "email": "deshpande_bandhul@beer.net",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229209,
+        "name": "Vasanti Namboothiri",
+        "email": "vasanti_namboothiri@zemlak.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229201,
+        "name": "Adwitiya Mehra",
+        "email": "adwitiya_mehra@willms.com",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 229200,
+        "name": "Ganak Nehru",
+        "email": "ganak_nehru@jast-kuhic.name",
+        "gender": "female",
+        "status": "active"
+    }
+]
+2023-02-03 17:48:21,411 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:51:32,957 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Log4j initialized
+2023-02-03 17:51:33,534 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Base URI = 'https://gorest.co.in/public/v2/users/'
+2023-02-03 17:51:33,585 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:51:33,586 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:51:33,587 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:51:34,864 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:51:34,915 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229201,
+        "name": "Adwitiya Mehra",
+        "email": "adwitiya_mehra@willms.com",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 229200,
+        "name": "Ganak Nehru",
+        "email": "ganak_nehru@jast-kuhic.name",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 229199,
+        "name": "Miss Aagneya Dhawan",
+        "email": "aagneya_dhawan_miss@hamill.biz",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229198,
+        "name": "Nalini Ganaka",
+        "email": "nalini_ganaka@von.name",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 229197,
+        "name": "Aanandinii Verma",
+        "email": "aanandinii_verma@effertz-reilly.com",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 229196,
+        "name": "Aalok Bhattacharya",
+        "email": "bhattacharya_aalok@weimann.name",
+        "gender": "male",
+        "status": "inactive"
+    }
+]
+2023-02-03 17:51:34,933 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:51:35,904 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC002_CreateUser', Testcase-'inValidData' started...
+2023-02-03 17:51:35,905 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:51:35,905 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting CreateUser with POST request...
+2023-02-03 17:51:35,906 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Currently executing method: inValidData
+2023-02-03 17:51:36,249 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - before response
+2023-02-03 17:51:36,251 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:51:36,255 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "id": 233155,
+    "name": "Saran",
+    "email": "saran.qa9@gmail.com",
+    "gender": "male",
+    "status": "active"
+}
+2023-02-03 17:51:36,256 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - after response
+2023-02-03 17:51:36,258 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 201
+2023-02-03 17:51:36,260 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 201 Created
+2023-02-03 17:51:36,261 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Response Body: {"id":233155,"name":"Saran","email":"saran.qa9@gmail.com","gender":"male","status":"active"}
+2023-02-03 17:51:36,334 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Row Number 1
+2023-02-03 17:51:36,450 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Status code: 201
+2023-02-03 17:51:36,451 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test inValidData Success
+2023-02-03 17:51:36,458 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC002_CreateUser', Testcase-'inValidData' started...
+2023-02-03 17:51:36,459 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:51:36,460 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting CreateUser with POST request...
+2023-02-03 17:51:36,460 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Currently executing method: inValidData
+2023-02-03 17:51:36,884 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - before response
+2023-02-03 17:51:36,885 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:51:36,889 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "id": 233156,
+    "name": "Abi",
+    "email": "abi9@outlook.com",
+    "gender": "male",
+    "status": "inactive"
+}
+2023-02-03 17:51:36,891 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - after response
+2023-02-03 17:51:36,892 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 201
+2023-02-03 17:51:36,893 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 201 Created
+2023-02-03 17:51:36,894 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Response Body: {"id":233156,"name":"Abi","email":"abi9@outlook.com","gender":"male","status":"inactive"}
+2023-02-03 17:51:36,940 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Row Number 2
+2023-02-03 17:51:36,962 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Status code: 201
+2023-02-03 17:51:36,963 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test inValidData Success
+2023-02-03 17:51:36,966 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC002_CreateUser', Testcase-'inValidData' started...
+2023-02-03 17:51:36,966 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:51:36,967 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting CreateUser with POST request...
+2023-02-03 17:51:36,967 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Currently executing method: inValidData
+2023-02-03 17:51:37,425 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - before response
+2023-02-03 17:51:37,426 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:51:37,431 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "id": 233157,
+    "name": "John",
+    "email": "john9@microsoft.com",
+    "gender": "male",
+    "status": "active"
+}
+2023-02-03 17:51:37,432 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - after response
+2023-02-03 17:51:37,433 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 201
+2023-02-03 17:51:37,434 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 201 Created
+2023-02-03 17:51:37,434 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Response Body: {"id":233157,"name":"John","email":"john9@microsoft.com","gender":"male","status":"active"}
+2023-02-03 17:51:37,481 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Row Number 3
+2023-02-03 17:51:37,505 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Status code: 201
+2023-02-03 17:51:37,507 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test inValidData Success
+2023-02-03 17:51:37,516 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC002_CreateUser', Testcase-'inValidData' started...
+2023-02-03 17:51:37,517 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:51:37,518 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting CreateUser with POST request...
+2023-02-03 17:51:37,519 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Currently executing method: inValidData
+2023-02-03 17:51:37,909 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - before response
+2023-02-03 17:51:37,909 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:51:37,910 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "id": 233159,
+    "name": "Wilson",
+    "email": "wilson9@gmail.com",
+    "gender": "male",
+    "status": "inactive"
+}
+2023-02-03 17:51:37,911 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - after response
+2023-02-03 17:51:37,911 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 201
+2023-02-03 17:51:37,912 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 201 Created
+2023-02-03 17:51:37,912 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Response Body: {"id":233159,"name":"Wilson","email":"wilson9@gmail.com","gender":"male","status":"inactive"}
+2023-02-03 17:51:37,955 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Row Number 4
+2023-02-03 17:51:37,989 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Status code: 201
+2023-02-03 17:51:37,991 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test inValidData Success
+2023-02-03 17:51:37,996 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC002_CreateUser', Testcase-'inValidData' started...
+2023-02-03 17:51:37,997 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:51:37,997 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting CreateUser with POST request...
+2023-02-03 17:51:37,997 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Currently executing method: inValidData
+2023-02-03 17:51:38,287 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - before response
+2023-02-03 17:51:38,288 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:51:38,291 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "id": 233160,
+    "name": "Muthu",
+    "email": "muth9@aol.com",
+    "gender": "male",
+    "status": "active"
+}
+2023-02-03 17:51:38,292 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - after response
+2023-02-03 17:51:38,294 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 201
+2023-02-03 17:51:38,295 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 201 Created
+2023-02-03 17:51:38,296 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Response Body: {"id":233160,"name":"Muthu","email":"muth9@aol.com","gender":"male","status":"active"}
+2023-02-03 17:51:38,338 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Row Number 5
+2023-02-03 17:51:38,367 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Status code: 201
+2023-02-03 17:51:38,368 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test inValidData Success
+2023-02-03 17:51:38,380 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC002_CreateUser', Testcase-'inValidData' started...
+2023-02-03 17:51:38,382 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:51:38,382 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting CreateUser with POST request...
+2023-02-03 17:51:38,384 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Currently executing method: inValidData
+2023-02-03 17:51:38,695 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - before response
+2023-02-03 17:51:38,696 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:51:38,700 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "id": 233161,
+    "name": "Nishanth",
+    "email": "nishanth9@outlook.com",
+    "gender": "male",
+    "status": "active"
+}
+2023-02-03 17:51:38,700 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - after response
+2023-02-03 17:51:38,701 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 201
+2023-02-03 17:51:38,702 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 201 Created
+2023-02-03 17:51:38,703 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Response Body: {"id":233161,"name":"Nishanth","email":"nishanth9@outlook.com","gender":"male","status":"active"}
+2023-02-03 17:51:38,745 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Row Number 6
+2023-02-03 17:51:38,761 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Status code: 201
+2023-02-03 17:51:38,762 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test inValidData Success
+2023-02-03 17:51:38,803 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC002_CreateUser', Testcase-'validData' started...
+2023-02-03 17:51:38,805 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:51:38,807 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting CreateUser with POST request...
+2023-02-03 17:51:38,807 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Currently executing method: validData
+2023-02-03 17:51:39,143 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:51:39,145 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "id": 233162,
+    "name": "Saran",
+    "email": "saran.qa8@gmail.com",
+    "gender": "male",
+    "status": "active"
+}
+2023-02-03 17:51:39,145 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 201
+2023-02-03 17:51:39,147 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 201 Created
+2023-02-03 17:51:39,786 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Value of the 'id' node - 233162
+2023-02-03 17:51:39,787 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Newly created UserId successfully written to file
+2023-02-03 17:51:39,809 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Row Number 1
+2023-02-03 17:51:39,827 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Status code: 201
+2023-02-03 17:51:39,834 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test validData Success
+2023-02-03 17:51:40,142 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:51:40,143 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:51:40,144 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:51:40,446 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:51:40,451 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 233162,
+        "name": "Saran",
+        "email": "saran.qa8@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 233161,
+        "name": "Nishanth",
+        "email": "nishanth9@outlook.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 233160,
+        "name": "Muthu",
+        "email": "muth9@aol.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 233159,
+        "name": "Wilson",
+        "email": "wilson9@gmail.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 233157,
+        "name": "John",
+        "email": "john9@microsoft.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 233156,
+        "name": "Abi",
+        "email": "abi9@outlook.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 233155,
+        "name": "Saran",
+        "email": "saran.qa9@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    }
+]
+2023-02-03 17:51:40,454 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:51:40,461 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC003_UpdateUser_PUT', Testcase-'updateUser' started...
+2023-02-03 17:51:40,464 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:51:40,470 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting UpdateUser with PUT request...
+2023-02-03 17:51:40,470 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Reading content from ./src/test/resources/UserId.txt
+2023-02-03 17:51:40,473 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Update URI for PUT request: https://gorest.co.in/public/v2/users/233162
+2023-02-03 17:51:40,846 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:51:40,848 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "email": "saran.qa8@outlook.com",
+    "name": "52342",
+    "gender": "male",
+    "status": "active",
+    "id": 233162
+}
+2023-02-03 17:51:40,849 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 200
+2023-02-03 17:51:40,849 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 200 OK
+2023-02-03 17:51:40,851 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test updateUser Success
+2023-02-03 17:51:40,889 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:51:40,890 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:51:40,892 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:51:41,280 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:51:41,282 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 233162,
+        "name": "52342",
+        "email": "saran.qa8@outlook.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 233161,
+        "name": "Nishanth",
+        "email": "nishanth9@outlook.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 233160,
+        "name": "Muthu",
+        "email": "muth9@aol.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 233159,
+        "name": "Wilson",
+        "email": "wilson9@gmail.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 233157,
+        "name": "John",
+        "email": "john9@microsoft.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 233156,
+        "name": "Abi",
+        "email": "abi9@outlook.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 233155,
+        "name": "Saran",
+        "email": "saran.qa9@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    }
+]
+2023-02-03 17:51:41,283 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:51:41,285 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC004_UpdateUser_PATCH', Testcase-'updateUser' started...
+2023-02-03 17:51:41,286 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:51:41,286 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting UpdateUser with PATCH request...
+2023-02-03 17:51:41,286 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Reading content from ./src/test/resources/UserId.txt
+2023-02-03 17:51:41,287 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Update URI for PATCH request: https://gorest.co.in/public/v2/users/233162
+2023-02-03 17:51:41,605 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:51:41,607 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - {
+    "email": "saran.qa8@microsoft.com",
+    "id": 233162,
+    "name": "52342",
+    "gender": "male",
+    "status": "active"
+}
+2023-02-03 17:51:41,607 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 200
+2023-02-03 17:51:41,608 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 200 OK
+2023-02-03 17:51:41,608 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test updateUser Success
+2023-02-03 17:51:41,635 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:51:41,636 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:51:41,636 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:51:42,042 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:51:42,047 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 233162,
+        "name": "52342",
+        "email": "saran.qa8@microsoft.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 233161,
+        "name": "Nishanth",
+        "email": "nishanth9@outlook.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 233160,
+        "name": "Muthu",
+        "email": "muth9@aol.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 233159,
+        "name": "Wilson",
+        "email": "wilson9@gmail.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 233157,
+        "name": "John",
+        "email": "john9@microsoft.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 233156,
+        "name": "Abi",
+        "email": "abi9@outlook.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 233155,
+        "name": "Saran",
+        "email": "saran.qa9@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    }
+]
+2023-02-03 17:51:42,049 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
+2023-02-03 17:51:42,056 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC005_DeleteUser', Testcase-'deleteUser' started...
+2023-02-03 17:51:42,058 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:51:42,059 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting DeleteUser with DELETE request...
+2023-02-03 17:51:42,060 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Reading content from ./src/test/resources/UserId.txt
+2023-02-03 17:51:42,062 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Update URI for PATCH request: https://gorest.co.in/public/v2/users/233162
+2023-02-03 17:51:42,391 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:51:42,393 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - 
+2023-02-03 17:51:42,393 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statuscode: 204
+2023-02-03 17:51:42,393 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Statusline: HTTP/1.1 204 No Content
+2023-02-03 17:51:42,394 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test deleteUser Success
+2023-02-03 17:51:42,419 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - In Test Class-'com.demo.RestAPITest.tests.TC001_ListAllUsers', Testcase-'listAllUsers' started...
+2023-02-03 17:51:42,420 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - ************************************************************************************************************************
+2023-02-03 17:51:42,420 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Starting ListAllUsers with GET request...
+2023-02-03 17:51:42,689 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - Printing the response...
+2023-02-03 17:51:42,690 [main] INFO com.demo.RestAPITest.common.CommonLibraryRestAPI - [
+    {
+        "id": 233161,
+        "name": "Nishanth",
+        "email": "nishanth9@outlook.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 233160,
+        "name": "Muthu",
+        "email": "muth9@aol.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 233159,
+        "name": "Wilson",
+        "email": "wilson9@gmail.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 233157,
+        "name": "John",
+        "email": "john9@microsoft.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 233156,
+        "name": "Abi",
+        "email": "abi9@outlook.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 233155,
+        "name": "Saran",
+        "email": "saran.qa9@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229208,
+        "name": "Pres. Charvi Verma",
+        "email": "charvi_verma_pres@lebsack.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 229207,
+        "name": "Brajendra Kaul",
+        "email": "kaul_brajendra@wiza-veum.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229203,
+        "name": "Amaranaath Gupta",
+        "email": "gupta_amaranaath@schimmel-jaskolski.io",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 229202,
+        "name": "Dr. Charuvrat Pothuvaal",
+        "email": "charuvrat_pothuvaal_dr@hansen.biz",
+        "gender": "male",
+        "status": "inactive"
+    }
+]
+2023-02-03 17:51:42,691 [main] INFO com.demo.RestAPITest.utilities.TestListenersRestAPI - Test listAllUsers Success
